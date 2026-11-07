@@ -1,0 +1,139 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* background-color: antiquewhite; */
+   background-color: rgba(146, 135, 135, 0.617)
+}
+.container {
+  display: flex;
+  /* flex-direction: column; */
+  height: 100%;
+  width: 100%;
+}
+.navbar {
+  height: 100vh;
+  width: 20vw;
+  background-color: rgba(255, 255, 255, 0.514);
+  display: flex;
+}
+.navbar ul {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  list-style: none;
+}
+
+.navbar li {
+  height: 5vh;
+  width: 19vw;
+  border: 1px solid whitesmoke;
+  text-align: center;
+  margin-top: 2vw;
+  padding-top: 0.2vw;
+  border-radius: 8px;
+  margin-left: 0.2vw;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: white;
+}
+
+.navbar li:hover {
+  background-color: rgba(0, 0, 0, 0.162);
+  border: 1px solid beige;
+  color: rgba(128, 128, 128, 0.388);
+}
+
+/* .product{
+    height: 20vh;
+    width:20vw;
+} */
+.items {
+  display: none;
+  height: 20vh;
+  width: 12vw;
+  background-color: white;
+  margin-left: 7vw;
+  border-radius: 8px;
+}
+.items ul {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 1vw;
+  margin-left: 3vh;
+}
+.items li {
+  align-items: center;
+  border: none;
+  margin: 0;
+  padding: 0;
+  margin-top: 1vw;
+  color: black;
+}
+
+.product .items:hover .items {
+  display: block;
+}
+
+/* main contents */
+
+.main-contents {
+  height: 100vh - 20vh;
+  width: 100%;
+  /* background-color: rgba(0, 0, 255, 0.09); */
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-top: 2vw;
+}
+.cards {
+  height: 70vh;
+  width: 22vw;
+  background-color: rgba(128, 128, 128, 0.204);
+  box-shadow: 4px 4px 10px 2px rgba(0, 0, 0, 0.3);
+  margin-top: 1vw;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.img-card {
+  height: 78%;
+  width: 100%;
+  background-color: whitesmoke;
+  border-radius: 8px;
+}
+
+.img-card img {
+  height: 100%;
+  width: 100%;
+}
+.btn {
+  height: 7vh;
+  width: 10vw;
+  background-color: black;
+  margin-top: 1vw;
+  border-radius: 10px;
+}
+
+.btn p {
+  text-align: center;
+  padding: 1vw;
+  color: white;
+}
+
+/* footer */
+
+.footer {
+  height: 5vh;
+  width: 100%;
+  background-color: black;
+  color: rgba(128, 128, 128, 0.272);
+  text-align: center;
+  padding-top: 1vw;
+}
